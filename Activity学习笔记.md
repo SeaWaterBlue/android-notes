@@ -4,8 +4,7 @@
 
 具有单一用户界面的单一屏幕,
 
-![生命周期](https://raw.githubusercontent.com/SeaWaterBlue/android-notes/main/Activity%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-%E8%B5%84%E6%BA%90/activity.jpg)
-
+![生命周期](../android-notes/Activity学习笔记-资源/activity.jpg)
 
 - onCreate()
 
