@@ -77,7 +77,7 @@
     ```
 ## 页面跳转、任务与返回栈
 
-- `Activit`y 之间的跳转通过 `Intent` 实现
+- `Activity` 之间的跳转通过 `Intent` 实现
   
     ```Java
     Intent intent = new Intent(this,NewActivity.class);
@@ -181,10 +181,10 @@
 
         此模式下，同一个任务栈中 `Activity` 只会有一个实例存在，已经创建的 `Activity` 实例可以跨应用进行转送，类似于 `任务栈内单例模式`。
     
-    - `singleTask`
+    - `singleInstance`
 
         此模式下，该  `Activity` 会被启动到一个单独的任务栈中，并且此任务栈中只有该  `Activity` ，该 `Activity` 启动的任何其他 `Activity` 都不会和该 `Activity` 处于同一任务栈，而是会在其他任务栈中启动，真正的`全局单例模式`。  
-        如果不声明 `Activity`的 `taskAffinity`，即 每一个`Activity` 都对应着单独的 `taskAffinity`（默认值：包名），其实`singleTask`也就相当于`singleTask`。
+        如果不声明 `Activity`的 `taskAffinity`，即 每一个`Activity` 都对应着单独的 `taskAffinity`（默认值：包名），其实 `singleInstance` 也就相当于`singleTask`。
 
 2. 启动 `Activity` 时，您可以在传送给 `startActivity()` 的 `intent` 中添加相应的标记来修改 `Activity` 与其任务的默认关联。您可以使用以下标记来修改默认行为：
 
@@ -206,6 +206,8 @@ FLAG_ACTIVITY_CLEAR_TOP 最常与 FLAG_ACTIVITY_NEW_TASK 结合使用。将这�
 ## 其他
 
 - 系统不会直接销毁 `Activity` ,而是直接销毁 `Activity` 所在的进程
+
+## 其他补充知识
 
 
 
