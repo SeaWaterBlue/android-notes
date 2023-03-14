@@ -19,7 +19,7 @@
 
 - `onResume()`
 
-    同样在 `Activity` 与用户交互前执行，此时 `Activity` 处于 `Activity` 堆栈的栈顶，应用层的核心功能可以放到此处实现，此方法会一直执行，直到 `onPause()` 执行。
+    同样在 `Activity` 与用户交互前执行，此时 `Activity` 处于 `Activity` 堆栈的栈顶，应用层的核心功能可以放到此处实现，此方法会一直执行，直到 `onPause()` 执行。DaintyDainty
 
 - `onPause()`
 
