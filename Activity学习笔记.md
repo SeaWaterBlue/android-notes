@@ -6,7 +6,8 @@
 
 ## 生命周期
 
-![生命周期](../android-notes/Activity学习笔记-资源/activity.jpg)
+  ![生命周期](../android-notes/Activity学习笔记-资源/activity.jpg)
+
 
 - `onCreate()`
 
