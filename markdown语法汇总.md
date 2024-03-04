@@ -2,7 +2,7 @@
 Markdown 语法汇总
 ===
 
-本文参参考于 <https://www.runoob.com/markdown/md-tutorial.html>
+本文参考于 <https://www.runoob.com/markdown/md-tutorial.html>
 
 Markdown 简介
 ---
